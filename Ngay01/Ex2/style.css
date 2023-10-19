@@ -1,0 +1,36 @@
+.header  {
+    display: flex;
+}
+
+
+.header .right {
+    margin-top: -20px;
+    margin-left: 25px;
+}
+
+
+
+.column {
+    width: 50%; /* Đặt chiều rộng của mỗi cột là 50% để chúng hiển thị theo hình dạng cột */
+    float: left; /* Đặt float thành left để chúng chồng lên nhau */
+    box-sizing: border-box; /* Box-sizing giúp tính cả border và padding vào chiều rộng của cột */
+}
+
+.Date p, .work p {
+    margin: 0; /* Đặt margin thành 0 để loại bỏ khoảng cách dòng */
+}
+
+
+
+
+
+.skill ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill ul li {
+    display: inline-block; /* Đặt các mục li thành inline-block để chúng hiển thị trên cùng một hàng ngang */
+    margin-right: 20px; /* Khoảng cách giữa các mục li */
+}
+
